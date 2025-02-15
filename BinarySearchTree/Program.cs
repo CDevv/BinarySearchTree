@@ -13,8 +13,8 @@
             tree.Root.Left.Right.Left = new Node(4);
             tree.Root.Left.Right.Right = new Node(7);
             tree.Root.Right = new Node(10);
-            tree.Root.Right.Left = new Node(14);
-            tree.Root.Right.Left.Left = new Node(13);
+            tree.Root.Right.Right = new Node(14);
+            tree.Root.Right.Right.Left = new Node(13);
 
             tree.Insert(11);
 
